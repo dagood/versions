@@ -1,3 +1,6 @@
 <OrchestratedBuild Name="orch" BuildId="123">
-  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="http://example.org" />
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="http://example.org">
+    <Package NonShipping="true" Id="runtime.rhel.6-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-25929-04" />
+  </Endpoint>
+  <Build Name="corefx" />
 </OrchestratedBuild>
