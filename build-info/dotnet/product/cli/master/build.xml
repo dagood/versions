@@ -1,9 +1,3 @@
-<OrchestratedBuild Name="orch" BuildId="301404368">
-  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="http://example.org">
-    <Package Id="runtime.rhel.6-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-25929-04" NonShipping="true" />
-  </Endpoint>
-  <Endpoint Id="dotnetcli" Type="blob" Url="http://example.org">
-    <Blob Id="Runtime/2.1.0-preview1-25929-04/installer.exe" />
-    <Blob Id="Runtime/2.1.0-preview1-25929-04/tarball.tar.gz" />
-  </Endpoint>
+<OrchestratedBuild Name="orch" BuildId="450503903">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="http://example.org" />
 </OrchestratedBuild>
