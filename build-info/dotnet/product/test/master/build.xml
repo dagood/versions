@@ -1,0 +1,19 @@
+<OrchestratedBuild Name="testing-name" BuildId="20180108-04">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated/20180108-03/corefx/index.json">
+    <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26108-04" />
+    <Package Id="Microsoft.Diagnostics.Tracing.EventSource.Redist" Version="2.0.0-preview1-26108-04" />
+    <Package Id="Microsoft.NETCore.Targets" Version="2.1.0-preview1-26108-04" />
+    <Package Id="Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="Microsoft.Private.PackageBaseline" Version="2.2.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="Microsoft.VisualBasic" Version="10.3.0-preview1-26108-04" />
+    <Package Id="runtime.alpine.3.6-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="runtime.linux-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="runtime.osx-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="System.ValueTuple" Version="4.5.0-preview1-26108-04" />
+    <Blob Id="symbols/Microsoft.CSharp.4.5.0-preview1-26108-04.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Diagnostics.Tracing.EventSource.Redist.2.0.0-preview1-26108-04.symbols.nupkg" />
+    <Blob Id="symbols/System.Threading.Tasks.Extensions.4.5.0-preview1-26108-04.symbols.nupkg" />
+    <Blob Id="symbols/System.ValueTuple.4.5.0-preview1-26108-04.symbols.nupkg" />
+  </Endpoint>
+  <Build Name="corefx" BuildId="20180108-04" Branch="master" Commit="36e3dd4ece49086cbf4d0608fec2bfc887d31206" />
+</OrchestratedBuild>

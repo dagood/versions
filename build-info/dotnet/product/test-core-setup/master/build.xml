@@ -1,0 +1,12 @@
+<OrchestratedBuild Name="testing-core-setup" BuildId="20180108-04">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated/20180108-03/core-setup/index.json">
+    <Package Id="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.0-preview1-26108-04" />
+    <Package Id="runtime.alpine.3.6-x64.Microsoft.NETCore.App" Version="2.1.0-preview1-26108-04" />
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/dotnet-host-2.1.0-preview1-26108-04-win-x64.msi" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/sharedfx_win-arm_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/sharedfx_win-x64_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/sharedfx_win-x86_Release_version_badge.svg" ShipInstaller="dotnetclichecksums" />
+    <Blob Id="symbols/Microsoft.NETCore.App.2.1.0-preview1-26108-04.symbols.nupkg" />
+  </Endpoint>
+  <Build Name="core-setup" BuildId="20180108-04" Branch="master" Commit="ca48d0336ab1023c3342c4a378b1cdc73cd4806f" />
+</OrchestratedBuild>
