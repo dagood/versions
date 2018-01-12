@@ -17,6 +17,28 @@
   </Endpoint>
   <Endpoint Id="dotnet.myget.org dotnet-core" Type="NuGetFeed" Url="https://www.myget.org/F/dagood-test-dotnet-core-rel/api/v3/index.json">
     <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26108-04" />
+    <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26108-04" />
+    <Package Id="Microsoft.Diagnostics.Tracing.EventSource.Redist" Version="2.0.0-preview1-26108-04" />
+    <Package Id="Microsoft.Diagnostics.Tracing.EventSource.Redist" Version="2.0.0-preview1-26108-04" />
+    <Package Id="Microsoft.NETCore.Targets" Version="2.1.0-preview1-26108-04" />
+    <Package Id="Microsoft.NETCore.Targets" Version="2.1.0-preview1-26108-04" />
+    <Package Id="Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="Microsoft.Private.PackageBaseline" Version="2.2.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="Microsoft.Private.PackageBaseline" Version="2.2.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="Microsoft.VisualBasic" Version="10.3.0-preview1-26108-04" />
+    <Package Id="Microsoft.VisualBasic" Version="10.3.0-preview1-26108-04" />
+    <Package Id="runtime.alpine.3.6-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="runtime.alpine.3.6-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="runtime.linux-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="runtime.linux-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="runtime.osx-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="runtime.osx-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
+    <Package Id="System.ValueTuple" Version="4.5.0-preview1-26108-04" />
+    <Package Id="System.ValueTuple" Version="4.5.0-preview1-26108-04" />
+  </Endpoint>
+  <Endpoint Id="CentralBlobFeed" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/packageversionprops-test-2/central-feed-03/index.json">
+    <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26108-04" />
     <Package Id="Microsoft.Diagnostics.Tracing.EventSource.Redist" Version="2.0.0-preview1-26108-04" />
     <Package Id="Microsoft.NETCore.Targets" Version="2.1.0-preview1-26108-04" />
     <Package Id="Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
@@ -27,7 +49,7 @@
     <Package Id="runtime.osx-x64.Microsoft.Private.CoreFx.NETCoreApp" Version="4.5.0-preview1-26108-04" NonShipping="true" />
     <Package Id="System.ValueTuple" Version="4.5.0-preview1-26108-04" />
   </Endpoint>
-  <Endpoint Id="CentralBlobFeed" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/packageversionprops-test-2/central-feed-03/index.json">
+  <Endpoint Id="CentralBlobFeed" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/packageversionprops-test-2/central-feed-04/index.json">
     <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26108-04" />
     <Package Id="Microsoft.Diagnostics.Tracing.EventSource.Redist" Version="2.0.0-preview1-26108-04" />
     <Package Id="Microsoft.NETCore.Targets" Version="2.1.0-preview1-26108-04" />
