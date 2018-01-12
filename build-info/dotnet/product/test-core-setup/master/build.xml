@@ -8,5 +8,13 @@
     <Blob Id="Runtime/2.1.0-preview1-26108-04/sharedfx_win-x86_Release_version_badge.svg" ShipInstaller="dotnetclichecksums" />
     <Blob Id="symbols/Microsoft.NETCore.App.2.1.0-preview1-26108-04.symbols.nupkg" />
   </Endpoint>
+  <Endpoint Id="dotnetcli" Type="BlobStorage" Url="https://dotnetcli.blob.core.windows.net/dagood">
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/dotnet-host-2.1.0-preview1-26108-04-win-x64.msi" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/sharedfx_win-arm_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/sharedfx_win-x64_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+  </Endpoint>
+  <Endpoint Id="dotnetclichecksums" Type="BlobStorage" Url="https://dotnetclichecksums.blob.core.windows.net/dagood">
+    <Blob Id="Runtime/2.1.0-preview1-26108-04/sharedfx_win-x86_Release_version_badge.svg" ShipInstaller="dotnetclichecksums" />
+  </Endpoint>
   <Build Name="core-setup" BuildId="20180108-04" Branch="master" Commit="ca48d0336ab1023c3342c4a378b1cdc73cd4806f" />
 </OrchestratedBuild>
