@@ -1,0 +1,87 @@
+<OrchestratedBuild Name="cli" BuildId="20180119-05">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated/20180119-05/final/index.json">
+    <Blob Id="Runtime/2.1.0-preview1-26120-01/dotnet-host-2.1.0-preview1-26120-01-opensuse.42-x64.rpm" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26120-01/dotnet-host-2.1.0-preview1-26120-01-rhel.7-x64.rpm" ShipInstaller="dotnetclichecksums" />
+    <Blob Id="Runtime/2.1.0-preview1-26120-01/dotnet-host-2.1.0-preview1-26120-01-win-x64.msi" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26120-01/dotnet-host-2.1.0-preview1-26120-01-win-x86.msi" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26120-01/dotnet-host-2.1.0-preview1-26120-01-x64.deb" ShipInstaller="dotnetcli" />
+    
+    <Blob Id="Sdk/2.2.0-preview1-008000/all_linux_distros_native_installer_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-linux-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-osx-x64.pkg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-osx-x64.pkg.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-osx-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-rhel-x64.rpm" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-rhel-x64.rpm.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-rhel.6-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-rhel.6-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x64.exe" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x64.exe.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x64.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x64.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x86.exe" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x86.exe.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x86.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-win-x86.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-x64.deb" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-x64.deb.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-linux-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-osx-x64.pkg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-osx-x64.pkg.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-osx-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-rhel.6-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-rhel.6-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x64.msi" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x64.msi.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x64.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x64.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x86.msi" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x86.msi.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x86.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-internal-2.2.0-preview1-008000-win-x86.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-linux-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-osx-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-rhel.6-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-rhel.6-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-win-x64.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-win-x64.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-win-x86.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-langpack-2.2.0-preview1-008000-win-x86.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-linux-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-osx-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-rhel.6-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-rhel.6-x64.tar.gz.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-win-x64.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-win-x64.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-win-x86.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-symbols-2.2.0-preview1-008000-win-x86.zip.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-standard-support-vs2015-2.2.0-preview1-008000-win-x86.msi" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-standard-support-vs2015-2.2.0-preview1-008000-win-x86.msi.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/linux_x64_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/Microsoft.DotNet.Cli.Utils.2.2.0-preview1-008000.nupkg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/Microsoft.DotNet.Cli.Utils.2.2.0-preview1-008000.nupkg.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/Microsoft.DotNet.MSBuildSdkResolver.2.2.0-preview1-008000.nupkg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/Microsoft.DotNet.MSBuildSdkResolver.2.2.0-preview1-008000.nupkg.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/osx_x64_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/rhel.6_x64_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/VS.Redist.Common.Net.Core.SDK.MSBuildExtensions.2.2.0-preview1-008000.nupkg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/VS.Redist.Common.Net.Core.SDK.MSBuildExtensions.2.2.0-preview1-008000.nupkg.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/VS.Redist.Common.Net.Core.SDK.x64.2.2.0-preview1-008000.nupkg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/VS.Redist.Common.Net.Core.SDK.x64.2.2.0-preview1-008000.nupkg.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/VS.Redist.Common.Net.Core.SDK.x86.2.2.0-preview1-008000.nupkg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/VS.Redist.Common.Net.Core.SDK.x86.2.2.0-preview1-008000.nupkg.sha" ShipInstaller="donetclichecksums" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/win_x64_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+    <Blob Id="Sdk/2.2.0-preview1-008000/win_x86_Release_version_badge.svg" ShipInstaller="dotnetcli" />
+  </Endpoint>
+  
+  <Build Name="cli" BuildId="2.2.0-preview1-008000" Branch="master" Commit="02a98d4e63e02928b8d359e4a0fff7d78530b67f" />
+  <Build Name="core-setup" BuildId="20180120-01" Branch="master" Commit="ecbd4f6c01c29de8bbf0669b5cd571f353065eb0" />
+</OrchestratedBuild>
