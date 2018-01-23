@@ -5,7 +5,6 @@
     <Package Id="runtime.win-x86.Microsoft.NETCore.Runtime.CoreCLR" Version="2.1.0-preview1-26119-06" NonShipping="true" />
 
     <Blob Id="Runtime/2.1.0-preview1-26120-01/dotnet-host-2.1.0-preview1-26120-01-opensuse.42-x64.rpm" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-26120-01/dotnet-host-2.1.0-preview1-26120-01-rhel.7-x64.rpm.sha512" ShipInstaller="dotnetclichecksums" />
 
     <Blob Id="Sdk/2.2.0-preview1-008000/all_linux_distros_native_installer_Release_version_badge.svg" ShipInstaller="dotnetcli" />
     <Blob Id="Sdk/2.2.0-preview1-008000/dotnet-sdk-2.2.0-preview1-008000-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
