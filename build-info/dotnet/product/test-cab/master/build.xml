@@ -1,0 +1,12 @@
+<OrchestratedBuild Name="cli" BuildId="20180123-03">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated/20180123-03/final/index.json">
+    <Package Id="Microsoft.CSharp" Version="4.5.0-preview2-26123-03" />
+    <Blob Id="Sdk/2.1.300-preview2-008017/dotnet-sdk-2.1.300-preview2-008017-win-x64.exe" ShipInstaller="dotnetcli" />
+  </Endpoint>
+  
+  <Build Name="anonymous" BuildId="no build id provided" />
+  <Build Name="cli" BuildId="2.1.300-preview2-008017" Branch="master" Commit="f4a0d2db0e642584232a4e4b49b290367fd24a3d" />
+  <Build Name="core-setup" BuildId="20180123-02" Branch="master" Commit="b64cb46124df1f7e64d7b7cde1034f693b270ceb" />
+  <Build Name="coreclr" BuildId="20180123-07" Branch="release/2.1" Commit="256d12a38d9846ffb3ab859a5de360d94f276ba1" />
+  <Build Name="corefx" BuildId="20180123-03" Branch="master" Commit="b17ac0e69fca4df4b0349d6d8049404c83110c10" />
+</OrchestratedBuild>
