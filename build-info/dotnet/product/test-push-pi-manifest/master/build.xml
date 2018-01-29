@@ -1,0 +1,10 @@
+<OrchestratedBuild Name="cli" BuildId="20180123-10">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/packageversionprops-test-2/manifest-corefx-01/index.json">
+    <Blob Id="symbols/Microsoft.CSharp.4.5.0-preview1-26105-01.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Diagnostics.Tracing.EventSource.Redist.2.0.0-preview1-26105-01.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.NETCore.Platforms.2.1.0-preview1-26105-01.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.NETCore.Targets.2.1.0-preview1-26105-01.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Private.CoreFx.NETCoreApp.4.5.0-preview1-26105-01.symbols.nupkg" />
+  </Endpoint>
+  <Build Name="corefx" BuildId="12345-01" Branch="branch" Commit="abcdef" test="foo" Version="4.5.0-preview1-26105-01" />
+</OrchestratedBuild>
