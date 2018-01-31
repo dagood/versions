@@ -20,7 +20,7 @@
     <Blob Id="Runtime/2.1.0-preview1-28131/aspnetcore-runtime-2.1.0-preview1-28131-linux-x64.tar.gz" />
   </Endpoint>
   
-  <Build Name="cli" BuildId="2.2.0-preview1-008000" ProductVersion="2.1.0-preview1-26120-01" Branch="master" Commit="02a98d4e63e02928b8d359e4a0fff7d78530b67f" />
-  <Build Name="core-setup" BuildId="20180120-01" ProductVersion="2.2.0-preview1-008000" Branch="master" Commit="ecbd4f6c01c29de8bbf0669b5cd571f353065eb0" />
+  <Build Name="cli" BuildId="2.2.0-preview1-008000" ProductVersion="2.2.0-preview1-008000" Branch="master" Commit="02a98d4e63e02928b8d359e4a0fff7d78530b67f" />
+  <Build Name="core-setup" BuildId="20180120-01" ProductVersion="2.1.0-preview1-26120-01" Branch="master" Commit="ecbd4f6c01c29de8bbf0669b5cd571f353065eb0" />
   <Build Name="aspnet" BuildId="2.1.0-preview1-28131" ProductVersion="2.1.0-preview1-28131" Commit="f3301bff9cd4a564eddaec32f8a49ded303f51f5" UniverseCommitHash="f3301bff9cd4a564eddaec32f8a49ded303f51f5" />
 </OrchestratedBuild>
