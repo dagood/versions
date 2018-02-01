@@ -18,8 +18,11 @@
   <Endpoint Id="dotnet.myget.org dotnet-core" Type="NuGetFeed" Url="https://www.myget.org/F/dagood-test-idempotent/api/v3/index.json">
     <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26119-09" />
     <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26119-09" />
+    <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26119-09" />
     <Package Id="runtime.win-x86.Microsoft.NETCore.Runtime.CoreCLR" Version="2.1.0-preview1-26119-06" NonShipping="true" />
     <Package Id="runtime.win-x86.Microsoft.NETCore.Runtime.CoreCLR" Version="2.1.0-preview1-26119-06" NonShipping="true" />
+    <Package Id="runtime.win-x86.Microsoft.NETCore.Runtime.CoreCLR" Version="2.1.0-preview1-26119-06" NonShipping="true" />
+    <Package Id="System.Numerics.Vectors" Version="4.5.0-preview1-26119-09" />
     <Package Id="System.Numerics.Vectors" Version="4.5.0-preview1-26119-09" />
     <Package Id="System.Numerics.Vectors" Version="4.5.0-preview1-26119-09" />
   </Endpoint>
