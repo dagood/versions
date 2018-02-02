@@ -74,7 +74,10 @@
   </Endpoint>
   <Endpoint Id="CentralBlobFeed" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/dagood-test/central-feed-02/index.json">
     <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26119-09" />
+    <Package Id="Microsoft.CSharp" Version="4.5.0-preview1-26119-09" />
     <Package Id="runtime.win-x86.Microsoft.NETCore.Runtime.CoreCLR" Version="2.1.0-preview1-26119-06" NonShipping="true" />
+    <Package Id="runtime.win-x86.Microsoft.NETCore.Runtime.CoreCLR" Version="2.1.0-preview1-26119-06" NonShipping="true" />
+    <Package Id="System.Numerics.Vectors" Version="4.5.0-preview1-26119-09" />
     <Package Id="System.Numerics.Vectors" Version="4.5.0-preview1-26119-09" />
   </Endpoint>
   <Build Name="cli" BuildId="2.2.0-preview1-008000" Branch="master" Commit="02a98d4e63e02928b8d359e4a0fff7d78530b67f" />
