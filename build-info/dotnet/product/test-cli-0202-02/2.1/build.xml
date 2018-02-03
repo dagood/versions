@@ -19,6 +19,20 @@
     <Blob Id="symbols/System.ValueTuple.4.5.0-preview1-26202-03.symbols.nupkg" />
     <Blob Id="symbols/Test.Utility.4.7.0-preview1-4897.symbols.nupkg" />
   </Endpoint>
+  <Endpoint Id="dotnetclichecksums" Type="BlobStorage" Url="https://dotnetclichecksums.blob.core.windows.net/dagood">
+    <Blob Id="Runtime/2.1.0-preview1-26202-01/dotnet-host-2.1.0-preview1-26202-01-opensuse.42-x64.rpm.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26202-01/sharedfx_win-x64_Release_version_badge.svg.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-26202-01/sharedfx_win-x86_Release_version_badge.svg.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28226/aspnetcore-runtime-2.1.0-preview1-28226-linux-x64.tar.gz.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Runtime/release/2.1/aspnetcore-runtime-win-x86-version-badge.svg.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Runtime/release/2.1/latest.aspnetcore.version.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Sdk/2.1.300-preview1-008019/all_linux_distros_native_installer_Release_version_badge.svg.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Sdk/2.1.300-preview1-008019/alpine.3.6_x64_Release_version_badge.svg.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Sdk/2.1.300-preview1-008019/dotnet-sdk-2.1.300-preview1-008019-alpine.3.6-x64.tar.gz.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Sdk/2.1.300-preview1-008019/dotnet-standard-support-vs2015-2.1.300-preview1-008019-win-x86.msi.sha" ShipInstaller="dotnetclichecksums" />
+    <Blob Id="Sdk/2.1.300-preview1-008019/dotnet-standard-support-vs2015-2.1.300-preview1-008019-win-x86.msi.sha512" ShipInstaler="dotnetcli" />
+    <Blob Id="Sdk/2.1.300-preview1-008019/linux_x64_Release_version_badge.svg.sha512" ShipInstaler="dotnetcli" />
+  </Endpoint>
   <Build Name="anonymous" BuildId="no build id provided" />
   <Build Name="aspnet" BuildId="2.1.0-preview1-28226" ProductVersion="2.1.0-preview1-28226" UniverseCommitHash="" />
   <Build Name="dotnet/cli-migrate" BuildId="20180202.2" Branch="refs/heads/release/2.1.3xx" Commit="abc2a1d4d7a5a08a1708ece9e60c1eba3d062c0c" />
