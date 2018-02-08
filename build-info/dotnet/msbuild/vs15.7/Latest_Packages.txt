@@ -1,0 +1,8 @@
+Microsoft.Build 15.7.0-preview-000010-1344850
+Microsoft.Build.Conversion.Core 15.7.0-preview-000010-1344850
+Microsoft.Build.Engine 15.7.0-preview-000010-1344850
+Microsoft.Build.Framework 15.7.0-preview-000010-1344850
+Microsoft.Build.Localization 15.7.0-preview-000010-1344850
+Microsoft.Build.Runtime 15.7.0-preview-000010-1344850
+Microsoft.Build.Tasks.Core 15.7.0-preview-000010-1344850
+Microsoft.Build.Utilities.Core 15.7.0-preview-000010-1344850

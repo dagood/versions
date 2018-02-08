@@ -1,0 +1,3 @@
+Microsoft.NET.Sdk.Publish 2.1.0-master-20180201-1344856
+Microsoft.NET.Sdk.Web 2.1.0-master-20180201-1344856
+Microsoft.NET.Sdk.Web.ProjectSystem 2.1.0-master-20180201-1344856

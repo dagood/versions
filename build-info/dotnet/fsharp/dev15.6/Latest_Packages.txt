@@ -1,0 +1,4 @@
+Microsoft.FSharp.Compiler 10.1.2-rtm-180201-0
+Microsoft.Portable.FSharp.Core 10.2.0
+Testing.FSharp.Compiler 10.1.2-rtm-180201-0
+Testing.FSharp.Core 10.1.0
